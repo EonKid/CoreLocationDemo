@@ -14,6 +14,7 @@
 		A68FD5E31C1E823100354B53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68FD5E21C1E823100354B53 /* Images.xcassets */; };
 		A68FD5E61C1E823100354B53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68FD5E41C1E823100354B53 /* LaunchScreen.xib */; };
 		A68FD5F21C1E823100354B53 /* MyLocationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A68FD5F11C1E823100354B53 /* MyLocationDemoTests.m */; };
+		A68FD5FC1C1E890B00354B53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68FD5FB1C1E890B00354B53 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A68FD5EB1C1E823100354B53 /* MyLocationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLocationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68FD5F01C1E823100354B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A68FD5F11C1E823100354B53 /* MyLocationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLocationDemoTests.m; sourceTree = "<group>"; };
+		A68FD5FB1C1E890B00354B53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68FD5FC1C1E890B00354B53 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		A68FD5C91C1E823000354B53 = {
 			isa = PBXGroup;
 			children = (
+				A68FD5FB1C1E890B00354B53 /* CoreLocation.framework */,
 				A68FD5D41C1E823000354B53 /* MyLocationDemo */,
 				A68FD5EE1C1E823100354B53 /* MyLocationDemoTests */,
 				A68FD5D31C1E823000354B53 /* Products */,
